@@ -70,6 +70,9 @@ span:hover{
     background-size: cover;
 }
 .gradientmen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-image: url(https://media.istockphoto.com/id/1303053462/photo/abstract-background-with-smooth-waves-in-shades-of-black.jpg?s=612x612&w=0&k=20&c=YxxiBpxWyKWFQisYaGKnmn7M4H7cen1c9WVEO3nqPc8=);
     background-position: center;
     background-repeat: no-repeat;
@@ -88,6 +91,7 @@ span:hover{
     color: aliceblue;
 }
 .apr1{
+    
     border-radius: 10px;
     gap: 10px;
     display: flex;
@@ -163,7 +167,6 @@ span:hover{
     padding: 10px;
     display: flex;
     gap: 120px;
-    margin-left: 650px;
     display: flex;
     justify-content: center;
 }
@@ -263,7 +266,7 @@ span:hover{
   }
 
   .apr1 {
-    width: 90%;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.1);
     padding: 10px;
     border-radius: 10px;
