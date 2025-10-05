@@ -1,0 +1,230 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+header{
+    position: relative;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+}
+/* .main{
+    margin-top: 180px;
+} */
+.line1{
+    display: flex;
+    justify-content: space-between;
+}
+.line2{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background: #000;
+    color: white;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    color: aliceblue;
+    padding: 10px;
+}
+.logo{
+    width: 200px;
+}
+.imgmayka{
+    width: 200px;
+}
+.mayka{
+    width: 300px;
+    border: 2px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.t-shirts{
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding: 30px;
+}
+.order{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 90px;
+}
+.order:hover{
+    scale: 110%;
+    background-color: grey;
+}
+.h3t-shirt{
+    color: aliceblue;
+}
+.t-shirtsgrad{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/014/856/718/small/abstract-white-and-gray-gradient-background-illustration-vector.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h3trousers{
+    color: aliceblue;
+}
+.trousergrad{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/014/856/718/small/abstract-white-and-gray-gradient-background-illustration-vector.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shalvar{
+    width: 300px;
+    border: 2px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.trousers{
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding: 30px;
+}
+.h3jaccet{
+    color: aliceblue;
+}
+.jaccetgrad{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/014/856/718/small/abstract-white-and-gray-gradient-background-illustration-vector.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jaccet{
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding: 30px;
+}
+.jaccetape{
+    width: 300px;
+    border: 2px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+/* ====== MOBILE ADAPTATION ====== */
+@media (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .line1 {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .line2 {
+        gap: 15px;
+        font-size: 14px;
+        padding: 10px 0;
+    }
+
+    .t-shirts,
+    .trousers,
+    .jaccet {
+        padding: 10px;
+        gap: 20px;
+    }
+
+    .mayka,
+    .shalvar,
+    .jaccetape {
+        width: 220px;
+        padding: 15px;
+    }
+
+    .imgmayka {
+        width: 160px;
+    }
+
+    .order {
+        width: 80px;
+        font-size: 14px;
+    }
+}
+
+/* ====== VERY SMALL PHONES ====== */
+@media (max-width: 480px) {
+    .line2 {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .mayka,
+    .shalvar,
+    .jaccetape {
+        width: 90%;
+    }
+
+    .imgmayka {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .t-shirtsgrad,
+    .trousergrad,
+    .jaccetgrad {
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .order {
+        width: 70px;
+        padding: 5px;
+    }
+}
+
+
+
+
+
+
+
+

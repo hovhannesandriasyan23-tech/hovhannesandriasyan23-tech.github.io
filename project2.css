@@ -1,0 +1,317 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+header{
+    /* position: fixed; */
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    z-index: 2;
+}
+.line1{
+    display: flex;
+    justify-content: space-between;
+}
+.line2{
+    justify-content: center;
+    gap: 30px;
+    display: flex;
+}
+.header{
+    color: aliceblue;
+    padding: 10px;
+}
+.logo{
+    width: 200px;
+    margin-right: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+.add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-image: url(https://media.istockphoto.com/id/1652302318/vector/abstract-gray-and-white-color-gradient-background-vector-illustration.jpg?s=612x612&w=0&k=20&c=PTPlmFhCfYkGpnxxcfN_K8GL17rwHzTl3hj9KA96B5Y=);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    
+}
+span:hover{
+    cursor:pointer;
+}
+.apranq{
+    padding: 10px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    
+}
+.h2looks{
+    padding: 30px;
+}
+.nk1{
+    border-radius: 10px;
+}
+.gradientlooks{
+    background-image: url(https://media.istockphoto.com/id/1303053462/photo/abstract-background-with-smooth-waves-in-shades-of-black.jpg?s=612x612&w=0&k=20&c=YxxiBpxWyKWFQisYaGKnmn7M4H7cen1c9WVEO3nqPc8=);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gradientmen{
+    background-image: url(https://media.istockphoto.com/id/1303053462/photo/abstract-background-with-smooth-waves-in-shades-of-black.jpg?s=612x612&w=0&k=20&c=YxxiBpxWyKWFQisYaGKnmn7M4H7cen1c9WVEO3nqPc8=);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gradientwomen{
+    background-image: url(https://media.istockphoto.com/id/1303053462/photo/abstract-background-with-smooth-waves-in-shades-of-black.jpg?s=612x612&w=0&k=20&c=YxxiBpxWyKWFQisYaGKnmn7M4H7cen1c9WVEO3nqPc8=);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h2looks{
+    color: aliceblue;
+}
+.apr1a{
+    color: aliceblue;
+}
+.apr1{
+    border-radius: 10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.patvirel{
+    border-radius: 10px;
+    width: 110px;
+}
+.patvirel:hover{
+    scale: 105%;
+    background-color: lightgray;
+}
+.hovmannkar{
+    background-image: url(./photo_5285311395417682434_y.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.h1add{
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin-top: 200px;
+}
+.voch1{
+    width: 500px;
+}
+.voch{
+    width: 467px;
+}
+.add2{
+    display: flex;
+    margin-left: 10px;
+    gap: 20px;
+}
+.apranq2{
+    width: 220px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    gap: 40px;
+    margin-left: 30px;
+}
+.gradient2{
+    background-image: url(https://www.shutterstock.com/image-photo/silky-gild-high-res-background-260nw-2236490375.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    justify-content: center;
+    display: flex;
+}
+.quality{
+    color: aliceblue;
+    margin-top: 175px;
+    margin-right: 150px;
+}
+.apranqwomen{
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content:space-around;
+    gap: 40px;
+}
+.apranqmen{
+    width: 220px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    gap: 120px;
+    margin-left: 650px;
+    display: flex;
+    justify-content: center;
+}
+.tiktok{
+    width: 70px;
+    margin-bottom: 10px;
+}
+.inst{
+    width: 90px;
+}
+.facebook{
+    width: 95px;
+}
+.verj{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREDPGszYkVFiC8RmYe_Lo7TVM0mJU8AwmnoQ&s);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 300px;
+    padding-top: 50px;
+}
+.verjnakan{
+    margin-top: 50px;
+    font-size: 50px;
+}
+.everything{
+    background-image: url(https://media.istockphoto.com/id/1652302318/vector/abstract-gray-and-white-color-gradient-background-vector-illustration.jpg?s=612x612&w=0&k=20&c=PTPlmFhCfYkGpnxxcfN_K8GL17rwHzTl3hj9KA96B5Y=);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 30px;
+}
+.sxmeq{
+    width: 90px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+.sxmeq:hover{
+    scale: 110%;
+    color: grey;
+}
+.asxmeq{
+    color: black;
+}
+    
+/* ========== 📱 MOBILE VERSION ========== */
+@media (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+
+  .line1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .line2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+
+  .logo {
+    width: 150px;
+    margin: 0;
+  }
+
+  .add {
+    font-size: 13px;
+    height: auto;
+    padding: 10px;
+  }
+
+  .h1add {
+    margin-top: 150px;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .hovmannkar {
+    height: 300px;
+  }
+
+  .apranq,
+  .apranqwomen,
+  .apranqmen {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .apr1 {
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .nk1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .add2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin: 0;
+  }
+
+  .voch, .voch1 {
+    width: 90%;
+  }
+
+  .gradient2 {
+    height: 200px;
+  }
+
+  .quality {
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .everything {
+    padding: 20px;
+  }
+
+  .verj {
+    height: auto;
+    padding: 40px 10px;
+  }
+
+  .verjnakan {
+    font-size: 28px;
+  }
+
+  .inst,
+  .facebook,
+  .tiktok {
+    width: 50px;
+    margin: 10px;
+  }
+}
